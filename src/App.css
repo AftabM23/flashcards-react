@@ -1,0 +1,26 @@
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+}
+.cards div {
+  background-color: #ccc;
+  height: 500;
+  width: 75%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5%;
+  place-content: center;
+}
+
+div.selected {
+  background-color: red;
+  height: 500;
+  width: 75%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5%;
+  place-content: center;
+}
